@@ -1,0 +1,21 @@
+:root {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  height: 60px;
+}
+
+img {
+  width: 150px;
+  align-items: center;
+  margin-left: 50px;
+}
+
+/* Section */
+
+h2 {
+  color: white;
+  margin-left: 50px;
+}
