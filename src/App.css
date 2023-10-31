@@ -5,12 +5,14 @@
 
 header {
   height: 60px;
+
+  margin-bottom: 40px;
 }
 
-img {
+header img {
   width: 150px;
   align-items: center;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 /* Section */
@@ -18,4 +20,35 @@ img {
 h2 {
   color: white;
   margin-left: 50px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 1240px;
+}
+section div {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 1400px;
+  overflow: scroll hidden;
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+section div::-webkit-scrollbar {
+  display: none;
+}
+
+section img {
+  flex-shrink: 0;
+  width: 200px;
+  object-fit: cover;
+  box-sizing: border-box;
 }
