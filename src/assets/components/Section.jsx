@@ -8,8 +8,8 @@ const Section = () => {
       <section key={index}>
         <h2>{elem.category}</h2>
         <div>
-          {elem.images.map((image, imageIndex) => {
-            return <img key={imageIndex} src={image} alt="" />;
+          {elem.images.map((image) => {
+            return <img key={image} src={image} alt="" />;
           })}
         </div>
       </section>

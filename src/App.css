@@ -3,24 +3,21 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  padding-left: 50px;
+  color: white;
+}
 header {
   height: 60px;
-
   margin-bottom: 40px;
 }
 
 header img {
   width: 150px;
   align-items: center;
-  margin-left: 30px;
 }
 
 /* Section */
-
-h2 {
-  color: white;
-  margin-left: 50px;
-}
 
 section {
   display: flex;
@@ -30,7 +27,7 @@ section {
 section div {
   display: flex;
   flex-wrap: nowrap;
-  width: 1400px;
+  width: 1300px;
   overflow: scroll hidden;
   /* Hide scrollbar for Chrome, Safari and Opera */
   -ms-overflow-style: none; /* IE and Edge */
@@ -38,7 +35,6 @@ section div {
 
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 50px;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -48,7 +44,7 @@ section div::-webkit-scrollbar {
 
 section img {
   flex-shrink: 0;
-  width: 200px;
+  height: 182px;
   object-fit: cover;
   box-sizing: border-box;
 }
